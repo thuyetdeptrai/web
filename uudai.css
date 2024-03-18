@@ -1,0 +1,80 @@
+#ship{
+  text-align: center;
+  padding: 20px;
+  text-transform: uppercase;
+  color: red;
+}
+#img-bg {
+  display: flex;
+  justify-content: center;
+}
+#img-bg img {
+  border-radius: 10px;
+}
+.section {
+  margin-bottom: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.section p {
+  text-align: center;
+}
+
+.section h2 {
+  text-align: center;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  width: calc(25% - 20px);
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.product h3 {
+  margin: 0;
+}
+
+.product p {
+  color: palevioletred;
+  margin: 10px 0;
+}
+
+.product del {
+  color: gray;
+}
+
+.product button {
+  background-color: rgb(237, 62, 91);
+  color: #fff;
+  border: none;
+  padding: 7px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+section form {
+  margin-left: 35%;
+}
+
+section form button {
+  margin-top: 20px;
+  width: 50px;
+  height: 25px;
+  margin-left: 370px;
+}

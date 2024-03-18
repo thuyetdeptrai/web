@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+.section h1{ 
+    text-align:center;
+    font-size: 80px;
+    padding-top: 60px;
+}
+.hangsanpham {
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between; 
+    margin-bottom: 70px; 
+
+  }
+  .sanpham {
+    width: calc(33.33% - 10px);
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 25px;
+  }
+  .dat-hang {
+    background-color:#333;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 10px;
+  }
